@@ -1,392 +1,499 @@
-# Universal Operations Framework
-**Built for humans. Optimized for AI.**
+# Root File Manager
+**One System for Every Company or Project.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Stars](https://img.shields.io/github/stars/xBlynd/root-architecture-showcase?style=social)](https://github.com/xBlynd/root-architecture-showcase)
 
 ---
 
-## 🎯 **What Is This?**
+## 😤 **The Problem You're Dealing With**
 
-A professional-grade file organization system designed by [xsvStudio](https://www.xsvstudio.com) for complex project management. This framework brings order to chaos—whether you're managing construction projects, IT services, legal cases, or manufacturing operations.
+You know the drill:
 
-**The best part?** It makes your files compatible with ANY AI tool your company already uses—Google Gemini, Microsoft Copilot, ChatGPT, Claude, Perplexity. No proprietary AI software needed.
+- 📁 **Searching through dozens of folders** to find last month's proposal
+- ❓ **"Where did Sarah save the contract?"** (She doesn't remember either)
+- 📧 **Clients asking for documents** you KNOW exist but can't locate
+- 🗂️ **Everyone naming files differently** ("Final Draft", "FINAL_v2", "Use This One")
+- 😰 **Audits, compliance reviews, legal requests** = panic mode
 
----
-
-## ✨ **Why This Framework?**
-
-### **For Humans:**
-- **Instant Clarity:** Find any file in seconds with logical folder hierarchy
-- **Universal Template:** Works across industries (construction, IT, legal, manufacturing)
-- **Professional Grade:** Battle-tested on $1.8B+ in infrastructure projects
-- **Scalable:** Single project or 100+ clients—same system scales effortlessly
-
-### **For AI (The Real Differentiator):**
-- **Works With Your Existing AI:** Gemini, Copilot, ChatGPT, Claude—no new software to buy
-- **Context-Rich Metadata:** Every file tagged with project, client, date, type
-- **Standardized Naming:** AI can parse and understand file purposes instantly
-- **Semantic Structure:** Folder hierarchy mirrors natural language queries
+**You're not disorganized. Your file system is.**
 
 ---
 
-## 🚀 **Quick Start**
+## ✅ **What Root File Manager Does**
 
-### **1. Download This Framework**
-```bash
-# Clone this repository
-git clone https://github.com/xBlynd/root-architecture-showcase.git
+Root gives you a **professional file organization system** that works the same way across every project, every client, every department.
 
-# Or download ZIP and extract
-```
+### **Think of it like:**
+- A filing cabinet with the same drawer labels for every client
+- A recipe you follow every time (no guessing)
+- A template your whole team uses (consistency finally)
 
-### **2. Read the Guide**
-Open [GETTING-STARTED.md](./GETTING-STARTED.md) for a 10-minute walkthrough.
+### **What you get:**
 
-### **3. Create Your First Project**
-```
-ROOT/
-├── CLIENTS/
-│   └── [YOUR-CLIENT-NAME-001]/
-│       └── PROJECTS/
-│           └── [YOUR-PROJECT-NAME-250117]/
-│               ├── 01-PROJECT-INFO/
-│               ├── 02-COMMUNICATIONS/
-│               ├── 03-DOCUMENTS/
-│               ├── 04-DELIVERABLES/
-│               └── 05-BILLING-ACCOUNTING/
-```
+✅ **One Structure for Everything**
+- Construction projects → Same 5 folders
+- Legal cases → Same 5 folders  
+- IT projects → Same 5 folders
+- Manufacturing jobs → Same 5 folders
 
----
+✅ **Clear File Naming Rules**
+- No more "Final_Draft_v2_USETHISONE.docx"
+- Every file tagged with: Date + Client + Project + Type
+- Example: `2025-01-17_ACME-Corp_Proposal_Website-Redesign.pdf`
 
-## 🏗️ **Core Structure**
-
-Every project follows this proven 5-folder system:
-
-| Folder | Purpose | Contains |
-|--------|---------|----------|
-| **01-PROJECT-INFO** | Project foundation | Index, scope, team contacts, meeting notes |
-| **02-COMMUNICATIONS** | All correspondence | Emails, Slack exports, meeting recordings |
-| **03-DOCUMENTS** | Contracts & specs | Proposals, contracts, technical documents |
-| **04-DELIVERABLES** | Project outputs | Final deliverables, reports, completed work |
-| **05-BILLING-ACCOUNTING** | Financial records | Invoices, receipts, payment tracking |
-
-**Why this structure?**
-- ✅ Chronological workflow (info → communicate → document → deliver → bill)
-- ✅ Clear ownership (no "where does this go?" confusion)
-- ✅ AI can instantly locate any file type
-- ✅ Audit-ready for compliance reviews
+✅ **Your Team Actually Uses It**
+- Simple enough your intern understands it
+- Professional enough your CFO approves it
+- Works with Google Drive, Dropbox, SharePoint - whatever you use
 
 ---
 
-## 🤖 **AI-Ready Out of the Box**
+## 🏗️ **How It Works (The 5-Folder System)**
 
-### **Works With Any AI You Already Use**
+Every project gets the same 5 folders. That's it.
 
-This framework **doesn't include proprietary AI software**. Instead, it makes your files compatible with the AI tools your company already uses:
+| **Folder** | **What Goes Here** | **Why It Matters** |
+|------------|-------------------|-------------------|
+| **1-PROJECT-INFO** | Scope, team contacts, meeting notes | The "what and who" of the project |
+| **2-COMMUNICATIONS** | Emails, texts, call logs | All conversations in one place |
+| **3-DOCUMENTS** | Contracts, proposals, specs | Important legal/technical papers |
+| **4-DELIVERABLES** | Final work, completed reports | What you actually delivered |
+| **5-BILLING** | Invoices, receipts, payments | Money tracking (for you or accountant) |
 
-- ✅ **Google Gemini** - Can instantly understand project scope, dates, deliverables
-- ✅ **Microsoft Copilot** - Can generate summaries from properly-tagged documents
-- ✅ **ChatGPT/Claude** - Can answer questions about project timelines, budgets, status
-- ✅ **Perplexity** - Can search across all projects using semantic understanding
+**Why this order?**
+1. You start a project (folder 1)
+2. You communicate with the client (folder 2)
+3. You sign paperwork (folder 3)
+4. You do the work (folder 4)
+5. You get paid (folder 5)
 
-### **How It Works**
-
-#### **Before (Traditional File Chaos):**
-```
-Documents/
-├── New Document (7).docx
-├── Copy of final_FINAL_v2.pdf
-└── untitled folder/
-    └── stuff.xlsx
-```
-
-**AI Query:** "What's the status of the ACME project?"  
-**AI Response:** 🤷 *"I see 127 files but can't determine project relationships"*
+**Chronological. Logical. Brain-dead simple.**
 
 ---
 
-#### **After (Universal Operations Framework):**
-```
-CLIENTS/
-└── ACME-CORP-001/
-    ├── 00-CLIENT-INFO.md (AI reads this for context)
-    └── PROJECTS/
-        └── WEBSITE-REDESIGN-250110/
-            ├── 00-PROJECT-INDEX.md (AI reads: status, budget, scope)
-            └── 03-DOCUMENTS/
-                └── 250117-ACME-PROPOSAL-Cloud-Migration_v2.pdf
-```
+## 💰 **What You're Buying: THE PRODUCT**
 
-**AI Query:** "What's the status of the ACME project?"  
-**AI Response:** ✅ *"ACME Corp Website Redesign started Jan 10, 2025. Status: In Progress. Budget: $45k. Last activity: Proposal v2 sent Jan 17."*
+### **Free Version (This Repo)**
 
-**Same AI tool. Better results. Zero custom software needed.**
+**What's included:**
+- ✅ The folder template (5 folders + how to name files)
+- ✅ Setup instructions
+- ✅ Sample project to copy
+- ✅ Basic AI compatibility guide (works with Gemini, Copilot, ChatGPT)
 
----
+**What you do yourself:**
+- ⚠️ Create folders manually for each new project
+- ⚠️ Enforce file naming yourself ("Hey team, remember to name files correctly!")
+- ⚠️ No automation - this is DIY
 
-### **Intelligent File Naming**
-Every file follows this pattern:
-```
-[YYMMDD]-[PROJECT]-[TYPE]-[DESCRIPTION]_[VERSION].ext
-```
-
-**Example:**
-```
-250117-ACME-CORP-PROPOSAL-Cloud-Migration-Services_v2.pdf
-```
-
-**Why AI loves this:**
-- Date parsing for timeline reconstruction
-- Project association for context
-- Type classification for search
-- Version tracking for document history
+**Best for:** Solo operators, small teams testing the waters, tight budgets
 
 ---
 
-### **Context Files (INDEX.md)**
-Each project has a `00-PROJECT-INDEX.md` with structured metadata:
+### **Professional Edition ($2,500)**
 
-```markdown
-# Project: ACME Corp Website Redesign
+**Everything in Free +**
 
-**Client:** ACME Corporation
-**Start Date:** 2025-01-10
-**Status:** In Progress
-**Project Type:** IT/Web Development
-**Budget:** $45,000
+#### **✅ Core Product Features:**
 
-## Scope
-- Homepage redesign
-- Mobile responsive implementation
-- E-commerce integration
+**1. Auto-Creation Scripts**
+- Fill out intake form (client name, project type, start date)
+- System creates folder structure automatically in 3 seconds
+- Pre-filled templates (proposals, contracts, invoices) with your branding
+- Works with: Google Drive, Dropbox, OneDrive, SharePoint, local folders
 
-## Key Contacts
-- Client PM: Jane Smith (jane@acmecorp.com)
-- Our PM: John Doe (john@xsvstudio.com)
-```
+**2. Compliance Checker (Folder Auditing)**
+- **Weekly automated scans** of all your project folders
+- Generates email report listing:
+  - Files with incorrect naming
+  - Documents in wrong folders
+  - Missing required files
+  - Orphaned/duplicate files
+- Suggests fixes ("Rename this file to..." or "Move this to folder 3")
 
-**AI uses this to:**
-- Generate project summaries instantly
-- Answer questions about scope/budget
-- Track stakeholders
-- Identify blockers
+**3. AI Compatibility Tools**
+- Structured metadata files AI can read (INDEX.md templates)
+- File naming conventions optimized for AI parsing
+- Works with: Google Gemini, Microsoft Copilot, ChatGPT, Claude, Perplexity
+- Pre-built AI query templates ("Which projects are over budget?")
 
----
+**4. Industry-Specific Templates**
+- **Construction:** RFI logs, submittal tracking, change orders, daily reports, punch lists
+- **Legal:** Case intake forms, discovery organization, billing timesheets, retainer tracking
+- **IT/Technology:** Project scope worksheets, technical specs, support ticket logs, SLAs
+- **Manufacturing:** Production run folders, QC checklists, supply chain docs, equipment logs
 
-## 💎 **What You Get (Free Tier)**
-
-This showcase repository includes:
-
-✅ **Core 5-Folder Template**
-- Universal project structure
-- Sample files and examples
-- Basic naming conventions
-
-✅ **Getting Started Guide**
-- 10-minute setup walkthrough
-- Best practices for file naming
-- Folder organization tips
-
-✅ **AI-Readiness Basics**
-- File naming standards for AI parsing
-- INDEX.md template for metadata
-- Basic context structure
-
-✅ **Sample Project**
-- Fully populated example project
-- Shows correct file organization
-- Demonstrates naming conventions
-
----
-
-## 🎁 **What You Get (Paid Product)**
-
-**Want the complete system?**
-
-The full Universal Operations Framework includes:
-
-### **🏗️ Industry-Specific Templates**
-- **Construction:** GC projects, MEP coordination, tenant improvements
-- **IT/Technology:** Web development, managed services, cybersecurity
-- **Legal:** Case management, contract review, compliance tracking
-- **Manufacturing:** Production runs, quality control, supply chain
-
-### **⚙️ Automation Scripts**
-- **Folder Generator:** Create new projects with one command
-- **Audit System:** Verify file naming compliance across all projects
-- **Batch Renamer:** Fix non-compliant files automatically
-- **Metadata Extractor:** Pull structured data from INDEX files
-
-### **📚 Complete Documentation**
-- Implementation guide (40+ pages)
-- Industry-specific workflow guides
-- Team training materials
-- Customization documentation
-
-### **🛠️ Professional Support**
+**5. Support & Training**
 - Email support (48-hour response)
-- Implementation assistance
-- Quarterly product updates
-- Priority feature requests
+- 90-day implementation assistance
+- Video training library (20+ tutorials)
+- Documentation package (40+ page implementation guide)
+
+**Best for:** Small to mid-size teams (5-25 people), managing 10-50 projects
 
 ---
 
-## 💡 **Optional: AI Analytics Service**
+### **Enterprise Edition ($5,000+)**
 
-Want even more insights? Our optional **AI Analytics Service** connects to your framework and generates:
+**Everything in Professional +**
 
-- Quarterly project reports (auto-generated from metadata)
-- Budget variance analysis across all clients
-- Resource allocation forecasting
-- Compliance gap detection
-- Timeline predictions based on historical data
+#### **✅ Enhanced Product Features:**
 
-**This service reads your framework's metadata and works ALONGSIDE your existing AI tools (Gemini/Copilot/ChatGPT).**
+**1. Real-Time Compliance Monitoring**
+- **Daily automated scans** (instead of weekly)
+- Dashboard with live project health scores
+- Slack/Teams integration for instant alerts
+- Auto-fix mode (system corrects violations automatically with your approval)
 
-**Pricing:** $299-$599/month  
-**Requirements:** Universal Operations Framework (paid product)  
-**Compatible with:** Any file system (local, Google Drive, SharePoint, etc.)
+**2. Custom Integrations**
+- API connections to your CRM (Salesforce, HubSpot, etc.)
+- ERP integration (QuickBooks, SAP, NetSuite, etc.)
+- Project management tools (Monday.com, Asana, Jira, etc.)
+- White-label branding (your company name/logo)
 
----
+**3. Advanced Automation**
+- Custom workflow stages (beyond standard Intake → Closeout)
+- Automated file routing based on rules you define
+- Batch processing for legacy file cleanup
+- Multi-office/multi-location deployment
 
-## 🎯 **Pricing**
+**4. Premium Support**
+- On-site training (we come to your office)
+- Priority support (4-hour response time)
+- Quarterly strategy reviews
+- Dedicated account manager
 
-### **Free (This Repository):**
-- Basic 5-folder template
-- Community support (GitHub Issues)
-- Perfect for: Individual users, single projects
-
-### **Professional ($2,500 one-time):**
-- Everything in Free +
-- Industry templates
-- Automation scripts
-- Implementation guide
-- 90 days email support
-- Perfect for: Small teams, <25 projects
-
-### **Enterprise ($5,000+ one-time):**
-- Everything in Professional +
-- Custom integration development
-- On-site training
-- Priority support
-- Perfect for: Organizations, 50+ projects
-
-### **AI Analytics SaaS ($299-$599/month):**
-- Hosted analytics platform
-- Natural language project queries
-- Automated reporting dashboard
-- API access for integrations
-- Ongoing support & updates
-- Perfect for: Teams needing continuous AI insights
+**Best for:** Mid to large organizations (25+ people), managing 50+ projects, mission-critical operations
 
 ---
 
-## 📞 **Get Started**
+## 🛠️ **PROFESSIONAL SERVICES (Optional Add-Ons)**
 
-### **Want the Full Product?**
+These are **separate consulting services** you can purchase to customize and optimize your Root File Manager deployment:
 
-**Schedule a free consultation:**
+---
+
+### **1. Workflow & Operational Audit ($1,500 - $3,500)**
+
+**What we do:**
+- Interview your team (1-3 days depending on company size)
+- Map your current file organization chaos
+- Identify bottlenecks and pain points
+- Document your actual workflow (not what you think it is)
+- Design custom folder structures for your specific needs
+- Create custom file naming conventions for your industry
+- Deliver detailed implementation roadmap
+
+**Deliverables:**
+- Current-state assessment report (20-30 pages)
+- Customized Root File Manager configuration
+- Workflow diagrams and process maps
+- Team training plan
+- 90-day implementation timeline
+
+**When you need this:**
+- Your operations are complex (multiple departments, specialized workflows)
+- You've tried organizing before and it failed
+- You need buy-in from executives (we provide ROI analysis)
+- You want customization before rolling out company-wide
+
+**Pricing:**
+- Small teams (5-10 people): $1,500
+- Mid-size teams (10-25 people): $2,500
+- Large organizations (25+ people): $3,500+
+
+**Timeline:** 1-2 weeks from kickoff to final report
+
+---
+
+### **2. Existing Data Migration Assistance ($2,000 - $10,000+)**
+
+**What we do:**
+- Audit your current file storage (Google Drive, SharePoint, network drives, etc.)
+- Categorize and map existing files to new Root structure
+- Batch rename files to comply with naming standards
+- Move files to correct folders (automated + manual QA)
+- Validate data integrity post-migration
+- Archive legacy files that don't fit new structure
+
+**Deliverables:**
+- Pre-migration file inventory report
+- Migration plan with risk assessment
+- Automated migration scripts (custom-built)
+- Post-migration validation report
+- Legacy archive with index
+- Team training on new structure
+
+**When you need this:**
+- You have 10,000+ files in disarray
+- You're switching from another system
+- You can't afford to lose any documents
+- You need migration completed during off-hours (weekends/nights)
+
+**Pricing:**
+- Up to 10,000 files: $2,000
+- 10,000 - 50,000 files: $5,000
+- 50,000+ files: $10,000+ (custom quote)
+- Complex migrations (multiple systems, regulatory requirements): Custom pricing
+
+**Timeline:** 2-6 weeks depending on data volume and complexity
+
+---
+
+### **3. Maintenance & Upgrade Package ($999 - $1,999/year)**
+
+**What you get:**
+
+**Ongoing Support:**
+- Quarterly compliance audits (we review your usage)
+- Script updates and bug fixes
+- New features as released
+- Template library updates (new industries, document types)
+- Priority email/phone support
+
+**Annual Training Refresh:**
+- 2 live training sessions per year (webinar or on-site)
+- Updated documentation
+- New team member onboarding materials
+
+**Performance Optimization:**
+- Annual workflow review
+- Recommendations for automation improvements
+- Custom script development (1-2 scripts per year included)
+
+**When you need this:**
+- Your team grows (new hires need training)
+- Your operations evolve (new project types, new departments)
+- You want peace of mind (guaranteed support and updates)
+- You prefer predictable annual costs
+
+**Pricing:**
+- Professional Edition users: $999/year
+- Enterprise Edition users: $1,999/year
+
+**Recommended for:** Companies with 10+ users or managing 25+ active projects
+
+---
+
+### **4. xsvStudio Deep Analytics Service ($2,500 - $5,000)**
+
+**What we do:**
+- Analyze 6-12 months of your Root File Manager usage data
+- Generate insights from your project metadata (budgets, timelines, resource allocation)
+- Identify patterns: Which project types go over budget? Which clients are most profitable? Where are bottlenecks?
+- Provide executive-level reporting with actionable recommendations
+- Build custom AI query templates for your specific business questions
+
+**Deliverables:**
+- Deep analytics report (30-50 pages) with visualizations
+- Custom dashboard (Tableau, Power BI, or Google Data Studio)
+- 10 pre-built AI queries specific to your business
+- Quarterly trend analysis (updated every 3 months)
+- Executive presentation (1-hour session with leadership team)
+
+**When you need this:**
+- You've been using Root for 6+ months (need data history)
+- You want data-driven insights for strategic planning
+- You're trying to improve profitability or efficiency
+- You need to justify operational changes to executives
+
+**Pricing:**
+- One-time analysis: $2,500
+- Quarterly ongoing service: $5,000/year (includes 4 quarterly reports)
+
+**Requirements:**
+- Must own Professional or Enterprise Edition
+- Minimum 6 months of Root File Manager usage (12 months recommended)
+- Access to your project metadata (we sign NDA if needed)
+
+**Timeline:** 3-4 weeks for initial analysis, then quarterly updates
+
+---
+
+## 🎯 **Pricing Summary**
+
+### **The Product (One-Time Purchase):**
+
+| **Edition** | **Price** | **Auto-Creation** | **Compliance Audits** | **AI Tools** | **Scripts** | **Support** |
+|-------------|-----------|-------------------|-----------------------|--------------|-------------|-------------|
+| **Free (Showcase)** | $0 | ❌ Manual only | ❌ None | ✅ Basic guide | ❌ None | Community (GitHub) |
+| **Professional** | $2,500 | ✅ Yes | ✅ Weekly | ✅ Advanced | ✅ Full library | Email (48hr) |
+| **Enterprise** | $5,000+ | ✅ Advanced | ✅ Daily + real-time | ✅ Advanced | ✅ Full + custom | On-site + priority |
+
+### **Professional Services (Optional Add-Ons):**
+
+| **Service** | **Price Range** | **Timeline** | **Best For** |
+|-------------|-----------------|--------------|--------------|
+| **Workflow Audit** | $1,500 - $3,500 | 1-2 weeks | Pre-implementation customization |
+| **Data Migration** | $2,000 - $10,000+ | 2-6 weeks | Moving from old system |
+| **Maintenance Package** | $999 - $1,999/year | Ongoing | Annual support & updates |
+| **Deep Analytics** | $2,500 - $5,000 | 3-4 weeks | Strategic insights (6+ months usage) |
+
+**Payment Options:**
+- One-time purchase: Product editions (no recurring fees for software)
+- Annual subscription: Maintenance Package only
+- Project-based: Workflow Audit, Data Migration, Deep Analytics
+
+---
+
+## 🤖 **AI Compatibility (Included in ALL Paid Editions)**
+
+Root File Manager is designed to work seamlessly with the AI tools your company already uses:
+
+✅ **Google Gemini** - Reads structured metadata, generates project summaries  
+✅ **Microsoft Copilot** - Parses file names, answers budget/timeline questions  
+✅ **ChatGPT/Claude** - Analyzes project data, identifies trends  
+✅ **Perplexity** - Searches across all projects semantically
+
+**How it works:**
+- Root's standardized file naming lets AI understand document types instantly
+- Structured INDEX.md files in each project provide context AI can parse
+- Folder hierarchy mirrors natural language queries
+- Pre-built AI query templates included (Professional/Enterprise editions)
+
+**Example queries AI can answer:**
+- "Which projects are over budget this quarter?"
+- "What's the status of all ACME Corp projects?"
+- "List all unsigned contracts from last month"
+- "Show me projects with delayed deliverables"
+
+**No proprietary AI software included.** Root makes YOUR existing AI tools more effective by organizing your data properly.
+
+---
+
+## 📞 **Ready to Get Organized?**
+
+### **Start with Free (Smart Move):**
+1. ⭐ Star this repo
+2. 📥 Download and extract
+3. 📖 Read [GETTING-STARTED.md](./GETTING-STARTED.md)
+4. 🗂️ Create one test project manually
+5. 👥 See if your team actually uses it
+6. 🚀 Upgrade when you're ready to automate
+
+### **Buy Professional or Enterprise Edition:**
+
+**Schedule a free 30-minute consultation:**
 - 📧 Email: hello@xsvstudio.com
 - 🌐 Website: [www.xsvstudio.com](https://www.xsvstudio.com)
 - 📅 Book a call: [calendly.com/xsvstudio](https://calendly.com/xsvstudio)
 
-### **Just Want to Chat?**
+**We'll ask you:**
+- How many projects do you manage per year?
+- What industry are you in?
+- What's your biggest file organization pain point?
+- Do you need data migration from an old system?
 
-**Join our community:**
-- 💬 GitHub Discussions: Ask questions, share tips
-- 🐛 Report Issues: Help us improve this framework
-- ⭐ Star this repo: Show your support!
+**Then we'll recommend:**
+- Which edition fits your needs (Professional vs Enterprise)
+- Whether you need any professional services (Workflow Audit, Migration, etc.)
+- Honest assessment if Root is a good fit (sometimes it's not - and we'll tell you)
+
+---
+
+### **Want Professional Services?**
+
+**Workflow Audit:** Recommended BEFORE purchasing product (get customization right from the start)
+
+**Data Migration:** Purchase alongside product license (we'll migrate while implementing)
+
+**Maintenance Package:** Add during purchase or upgrade within first 90 days
+
+**Deep Analytics:** Only after 6-12 months of usage (need data history for meaningful insights)
+
+**Contact us to discuss your specific needs - we'll build a custom package.**
 
 ---
 
 ## 🏢 **About xsvStudio**
 
-We're a project management and technology consulting firm based in Philadelphia, specializing in complex infrastructure projects. With 20+ years managing $1.8B+ in construction, healthcare, and industrial environments, we've refined this framework through real-world battle-testing.
+We're a project management and technology consulting firm based in Philadelphia, specializing in complex infrastructure projects.
 
-**Our expertise:**
-- Healthcare construction (ICRA Class IV/V, negative pressure isolation)
-- Industrial environments (GMP/FDA compliance, zero downtime)
-- Technology integration (BIM/VDC coordination, digital twins)
-- Legal compliance (change order forensics, contract risk mitigation)
+**Our background:**
+- 20+ years managing $1.8B+ in construction, healthcare, industrial, and legal projects
+- Healthcare construction (hospital renovations, sterile environments, ICRA Class IV/V)
+- Industrial manufacturing (zero-downtime upgrades, GMP/FDA compliance)
+- Commercial real estate (tenant improvements, lease negotiations)
+- Legal compliance (contract forensics, audit defense)
 
-**We built this framework for ourselves. Now we're sharing it with you.**
+**We built Root to solve OUR OWN file chaos.** After 20 years of managing massive projects, we realized:
+- Generic file systems don't work for complex operations
+- Every team names files differently (disaster)
+- Finding documents during audits was a nightmare
+- Training new hires on "our system" took weeks
 
----
+**So we built Root. It worked so well we turned it into a product.**
 
-## 🔄 **Repository Relationships**
-
-### **This is the FREE Showcase Version**
-
-Want to see the full source code?
-- **Main Product Repo:** Private repository (customers only)
-- **This Showcase:** Forked from main product, stripped to essentials
-- **Updates:** We periodically sync improvements from main to showcase
-
-### **How Updates Work:**
-
-```
-Main Product Repo (Private)
-    ↓ (improvements discovered)
-    ↓ (community contributions)
-    ↓
-This Showcase Repo (Public) ← YOU ARE HERE
-    ↓ (you can fork)
-    ↓
-Your Custom Fork (Your operations)
-```
-
-**You can contribute back!**
-- Found a bug? Open an issue.
-- Improved a template? Submit a PR.
-- Great idea? Share in Discussions.
-
----
-
-## 📝 **License**
-
-This showcase repository is open-source under the [MIT License](LICENSE).
-
-**You are free to:**
-- ✅ Use for personal projects
-- ✅ Use for commercial projects
-- ✅ Modify and adapt
-- ✅ Fork and redistribute
-
-**The full paid product uses a commercial license with additional features and support.**
+**We're not software developers selling you vaporware. We're project managers who eat our own dog food daily.**
 
 ---
 
 ## 🎓 **Learn More**
 
 ### **Documentation in This Repo:**
-- [GETTING-STARTED.md](./GETTING-STARTED.md) - Quick setup guide
-- [AI-READINESS-GUIDE.md](./AI-READINESS-GUIDE.md) - How framework works with existing AI tools
-- [SAMPLE-PROJECT/](./SAMPLE-PROJECT/) - Example project structure
+- [GETTING-STARTED.md](./GETTING-STARTED.md) - 10-minute quick start guide
+- [SAMPLE-PROJECT/](./SAMPLE-PROJECT/) - Complete example project structure
+- [AI-READINESS-GUIDE.md](./AI-READINESS-GUIDE.md) - How Root works with Gemini, Copilot, ChatGPT
 
 ### **External Resources:**
-- [xsvStudio Blog](https://www.xsvstudio.com/blog) - Project management tips
-- [xsvCommunity](https://www.xsvcommunity.com) - Community forum
+- [xsvStudio Blog](https://www.xsvstudio.com/blog) - Project management tips and case studies
+- [Root Product Page](https://www.xsvstudio.com/root) - Full product details and pricing calculator
+- [Community Forum](https://www.xsvcommunity.com) - User discussions and tips
 
 ---
 
-## 🔥 **Ready to Transform Your File Chaos?**
+## 🛡️ **Money-Back Guarantee**
 
-### **Start with Free:**
-1. Star this repo ⭐
-2. Fork it for your use
-3. Read [GETTING-STARTED.md](./GETTING-STARTED.md)
-4. Create your first project
+**Professional & Enterprise Editions include 30-day satisfaction guarantee:**
 
-### **Upgrade to Professional:**
-1. See the difference yourself first
-2. Schedule a consultation when ready
-3. Get implementation support
-4. Transform your operations
+- Try Root for 30 days
+- If it doesn't work for your operations, full refund
+- No questions asked, no hassle
+
+**Why we offer this:**
+- Root isn't for everyone (and that's okay)
+- We'd rather refund than have unhappy customers
+- If you're still disorganized after 30 days, we failed
+
+**Professional Services are non-refundable** (we're providing custom consulting work), but product licenses are fully guaranteed.
 
 ---
 
-**Built with 🧠 by [xsvStudio](https://www.xsvstudio.com)**  
-*Because your files deserve better than "New Folder (7)"*
+## 📝 **License**
 
-[⬆ Back to Top](#universal-operations-framework)
+### **This Free Showcase Version:**
+Open-source under [MIT License](LICENSE).
+
+**You can:**
+- ✅ Use for personal or commercial projects
+- ✅ Modify and adapt to your needs
+- ✅ Share with others
+
+### **Paid Product Editions:**
+Commercial license with the following terms:
+- ✅ Unlimited projects within your organization
+- ✅ Perpetual license (own it forever, no monthly fees)
+- ✅ 1 year of updates included
+- ❌ Cannot resell or redistribute scripts/templates
+
+**Professional Services work product is yours** (we transfer all IP rights for custom deliverables).
+
+---
+
+## 🔥 **Stop Searching. Start Organizing.**
+
+Your files don't need to be a disaster.  
+Your team doesn't need to guess where things go.  
+Your audits don't need to be panic attacks.
+
+**Root File Manager gives you a system that actually works.**
+
+**Start free. Upgrade when ready. Transform your operations.**
+
+---
+
+**Built by [xsvStudio](https://www.xsvstudio.com) - Project managers who got tired of file chaos.**  
+*Because "Final_Draft_v3_USETHISONE.docx" isn't a filing system.*
+
+[⬆ Back to Top](#root-file-manager)
